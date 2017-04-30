@@ -1,0 +1,95 @@
+body div .pun .postmain {
+  width: 78%;
+  margin-left: 22%!important;
+  margin-top: 90px!important;
+  border: solid 0px !important;
+  border-color: transparent!important;
+  border: solid 1px #bdbdbd!important;
+}
+ 
+body div .pun .post {
+  position: relative!important;
+  border: solid 1px #bdbdbd!important;
+  margin-left: 20px!important;
+  margin-right: 20px!important;
+  border-radius: 3px !important;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.21);
+}
+ 
+body div .pun .post .posthead {
+    position: absolute!important;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 0px!important;
+    border: solid 0px !important;
+    border-bottom: solid 1px #2ea3f2!important;
+    padding: 30px;
+    padding-left: 22%;
+}
+ 
+body div .pun .post .postmain .postbody {
+  border: solid 0px !important;
+  border-color: transparent!important;
+}
+ 
+body div .pun .post .postmain .postbody .post-entry {
+  border: solid 0px !important;
+  border-color: transparent!important;
+}
+ 
+body div .pun .post .user {
+  position: relative!important;
+  margin: 0px!important;
+  margin-left: -6px!important;
+  width: 22%!important;
+  border: solid 0px !important;
+  background-color: transparent!important;
+  border: solid 0px !important;
+}
+ 
+body div .pun .post .posthead span.date-time {
+  margin-left: 10px;
+  display: block;
+}
+ 
+body div .pun .post .posthead span.date-time:before {
+  content: "Postado ";
+}
+ 
+body div .pun .post .posthead a {
+  display: block;
+  margin-left: 10px;
+}
+ 
+body div .pun .postfoot {
+  position: relative;
+}
+ 
+body div .pun .user-ident {
+  background-color: transparent!important;
+  border: solid 0px !important;
+}
+ 
+body div .pun .post .user h4.username {
+  background-color: transparent!important;
+  border: solid 0px !important;
+  box-shadow: none!important;
+  position: relative;
+  top: 177px;
+}
+ 
+body div .pun .post .user .user-basic-info {
+  background-color: transparent!important;
+  border: solid 0px !important;
+}
+ 
+body div .pun .post .user .user-basic-info img[alt="avatar"] {
+  background-color: transparent!important;
+  border: solid 0px !important;
+  border-radius: 99em;
+  width: 14em;
+  height: 13em;
+  margin-top: -56px!important;
+  margin-bottom: 60px!important;
+}
