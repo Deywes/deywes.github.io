@@ -76,7 +76,7 @@ background-color: transparent!important;
     border: solid 0px !important;
     box-shadow: none!important;
     position: relative;
-     top: 215px;
+    top: 220px;
 }
  
 body div .pun .post .user .user-basic-info {
@@ -90,6 +90,5 @@ body div .pun .post .user .user-basic-info img[alt="avatar"] {
     border-radius: 99em;
     width: 150px;
     height: 150px;
-    margin-top: -53px!important;
     margin-bottom: 60px!important;
 }
