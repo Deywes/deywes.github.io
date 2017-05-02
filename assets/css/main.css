@@ -128,3 +128,192 @@ body div div div div.lz-005 .post .posthead h2 {
   text-transform: capitalize;
   margin-left: -212px;
 }
+/* font asnewr icon*/
+/**
+ * Trocar os botões do SCEditor por FontAwesome Icons.
+ *
+ * @author Luiz~
+ *
+ * @see <a href="http://ajuda.forumeiros.com/">Fórum dos Fóruns</a>
+ * @licence MIT
+ */
+.sceditor-button {
+  position: relative;
+}
+ 
+.sceditor-button * {
+  text-indent: initial!important;
+  color: #000!important;
+  line-height: 15px!important;
+}
+ 
+.sceditor-button div {
+  font-size: 0px!important;
+  background-image: none!important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.sceditor-button div:before {
+  font-size: 15px!important;
+  font-family: FontAwesome;
+  text-indent: initial!important;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500!important;
+}
+ 
+.sceditor-button-bold div:before {
+  content: "\f032";
+}
+ 
+.sceditor-button-italic div:before {
+  content: "\f033";
+}
+ 
+.sceditor-button-underline div:before {
+  content: "\f0cd";
+}
+ 
+.sceditor-button-strike div:before {
+  content: "\f0cc";
+}
+ 
+.sceditor-button-left div:before {
+  content: "\f036";
+}
+ 
+.sceditor-button-center div:before {
+  content: "\f037";
+}
+ 
+.sceditor-button-right div:before {
+  content: "\f038";
+}
+ 
+.sceditor-button-justify div:before {
+  content: "\f039";
+}
+ 
+.sceditor-button-bulletlist div:before {
+  content: "\f0ca";
+}
+ 
+.sceditor-button-orderedlist div:before {
+  content: "\f0cb";
+}
+ 
+.sceditor-button-horizontalrule div:before {
+  content: "\f068";
+}
+ 
+.sceditor-button-quote div:before {
+  content: "\f10d";
+}
+ 
+.sceditor-button-code div:before {
+  content: "\f1c9";
+}
+ 
+.sceditor-button-faspoiler div:before {
+  content: "\f146";
+}
+ 
+.sceditor-button-fahide div:before {
+  content: "\f070";
+}
+ 
+.sceditor-button-table div:before {
+  content: "\f0ce";
+}
+ 
+.sceditor-button-servimg div:before {
+  content: "\f03e";
+}
+ 
+.sceditor-button-image div:before {
+  content: "\f1c5";
+}
+ 
+.sceditor-button-link div:before {
+  content: "\f0c1";
+}
+ 
+.sceditor-button-youtube div:before {
+  content: "\f166";
+}
+ 
+.sceditor-button-dailymotion {
+  display: none;
+}
+ 
+.sceditor-button-flash div:before {
+  content: "\f008";
+}
+ 
+.sceditor-button-headers div:before {
+  content: "\f1dc";
+}
+ 
+.sceditor-button-size div:before {
+  content: "\f034";
+}
+ 
+.sceditor-button-color div:before {
+  content: "\f1fc";
+}
+ 
+.sceditor-button-font div:before {
+  content: "\f031";
+}
+ 
+.sceditor-button-removeformat div:before {
+  content: "\f024";
+}
+ 
+.sceditor-button-more div:before {
+  content: "\f067";
+}
+ 
+.sceditor-button-subscript div:before {
+  content: "\f12c";
+}
+ 
+.sceditor-button-superscript div:before {
+  content: "\f12b";
+}
+ 
+.sceditor-button-fascroll div:before {
+  content: "\f060";
+}
+ 
+.sceditor-button-faupdown div:before {
+  content: "\f062";
+}
+ 
+.sceditor-button-farand div:before {
+  content: "\f074";
+}
+ 
+.sceditor-button-date div:before {
+  content: "\f133";
+}
+ 
+.sceditor-button-time div:before {
+  content: "\f017";
+}
+ 
+.sceditor-button-pastetext div:before {
+  content: "\f0ea";
+}
+ 
+.sceditor-button-source div:before {
+  content: "\f016";
+}
+ 
+.sceditor-button-emoticon div:before {
+  content: "\f118";
+}
