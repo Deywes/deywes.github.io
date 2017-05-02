@@ -90,3 +90,41 @@ body div .pun .post .user .user-basic-info img[alt="avatar"] {
     height: 150px;
     margin-bottom: 60px!important;
 }
+#main > div.main.paged > div.main-content.topic > div.post > div.user > div.user-ident > div > a > img {
+  background-color: #f7f7f7!important;
+  border: 1px solid #2ea3f2!important;
+  border-radius: 99em;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 60px!important;}
+body div .pun form .post .postmain { margin: 0px!important; width: 100%;}
+form.frm-form .post .postmain .postbody { margin-top: 73px;}
+form.frm-form .post .postmain .postbody span.username {opacity: 0;}
+html body div .pun form[action^="/privmsg"] div.user-basic-info > img:first-child {position: relative; top: -54px!important;}
+form.frm-form[action^="/privmsg"] .post .postmain .postbody span.username {opacity: 1!important; position: relative; top: 153px; background: none!important; border: none!important;}
+body div div div div div.lz-005 .post {}
+ 
+body div div div div.lz-005 .post .postmain {
+  margin: 20px 0px!important;
+  width: 100%;
+  overflow: hidden;
+}
+ 
+body div div div div.lz-005 .post .postbody {
+  margin-top: 128px!important;
+}
+ 
+body div div div div.lz-005 .post .postmain span.username {
+  border: none!important;
+  background-color: transparent!important;
+  border-right: solid 1px #39c!important;
+  border-bottom: solid 1px #39c!important;
+  border-radius: 0 0 3px 0;
+}
+ 
+body div div div div.lz-005 .post .postmain span.username:before {content: 'Por: ';color: #555;font-weight: normal;}
+ 
+body div div div div.lz-005 .post .posthead h2 {
+  text-transform: capitalize;
+  margin-left: -212px;
+}
