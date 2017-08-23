@@ -18,6 +18,10 @@ a.gensmall[style="color: #00FFEA"]:before {
       font-family: 'FontAwesome';
     content: "\f219  ";
 }
+a.gensmall[style="color: #7A7A7A"]:before {
+      font-family: 'FontAwesome';
+    content: "\f007  ";
+}
 .socio:before {
         content: "UL";
     padding: 0vw 1vw 0vw 1vw;
