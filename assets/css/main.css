@@ -1,3 +1,11 @@
+span.fa-btnYellow {
+  background-color: #ffdf00;
+  cursor: pointer;
+}
+span.fa-btnGreen {
+  background-color: #36a025;
+  cursor: pointer;
+}
 a.gensmall[style="color: #FF00FF"]:before {
       font-family: 'FontAwesome';
     content: "\f091  ";
