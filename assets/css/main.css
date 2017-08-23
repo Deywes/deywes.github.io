@@ -1,3 +1,23 @@
+a.gensmall[style="color: #FF00FF"]:before {
+      font-family: 'FontAwesome';
+    content: "\f091  ";
+}
+a.gensmall[style="color: #0033FF"]:before {
+      font-family: 'FontAwesome';
+    content: "\f0e3  ";
+}
+a.gensmall[style="color: #1BC25B"]:before {
+      font-family: 'FontAwesome';
+    content: "\f085  ";
+}
+a.gensmall[style="color: #5B00E3"]:before {
+      font-family: 'FontAwesome';
+    content: "\f1fc  ";
+}
+a.gensmall[style="color: #00FFEA"]:before {
+      font-family: 'FontAwesome';
+    content: "\f219  ";
+}
 .socio:before {
         content: "UL";
     padding: 0vw 1vw 0vw 1vw;
