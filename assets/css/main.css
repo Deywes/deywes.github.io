@@ -1,9 +1,9 @@
 span.fa-btnYellow {
-  background-color: #ffdf00;
+  background-color: #ffdf00 !important;
   cursor: pointer;
 }
 span.fa-btnGreen {
-  background-color: #36a025;
+  background-color: #36a025 !important;
   cursor: pointer;
 }
 a.gensmall[style="color: #FF00FF"]:before {
