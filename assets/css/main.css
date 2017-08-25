@@ -1,5 +1,5 @@
 #user_navigation {
-    overflow: visible;
+    overflow: visible !important;
 }
 #user_navigation > ul > li {
     position: relative;
