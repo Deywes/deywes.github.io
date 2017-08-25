@@ -1,11 +1,9 @@
 #user_navigation {
     overflow: visible;
 }
- 
 #user_navigation > ul > li {
     position: relative;
 }
- 
 .lz-dropdown-user::before {
     content: ' ';
     position: absolute;
@@ -18,7 +16,7 @@
     right: 8px;
 }
 .pun .user .user-info .post_field:nth-last-child(2)  {
-    float: none;
+    float: none !important;
 }
 .pun .user .user-info .post_field:nth-last-child(2) .label {
     display: block;
