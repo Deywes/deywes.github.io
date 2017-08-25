@@ -251,9 +251,6 @@ a.gensmall[style="color: #7A7A7A"]:before {
     vertical-align: middle;
     width: 30px;
 }
-div.user-info > div:nth-child(7), div.user-info > div:nth-child(8) {font-size:0px;}
-div.user-info > div:nth-child(8) {margin-top:-47px;background:none!important;margin-left:40px;border:none!important;margin-bottom:10px;}
-div.user-info > div:nth-child(7) {margin-top:10px;background:none!important;border:none!important;}
 .sig-content:before {
     background: #2ea3f2;
     border: 1px solid #2b8dd0;
