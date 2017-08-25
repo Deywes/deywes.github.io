@@ -1,3 +1,9 @@
+.user-info > br {
+    display: none;
+}
+.user-info > .post_field:not(:first-child) {
+    margin-top: 5px;
+}
 span.icon {
     padding: 0 ;
     width: 30px;
