@@ -17,10 +17,6 @@ span.icon {
     top: 0;
     left: 15px;
 }
-.lz-dropdown-user {    
-    padding-left: 85px;
-    height: 95px;
-}
 .lz-dropdown-user .lz-col-left,
 .lz-dropdown-user .lz-col-right {
     line-height: 1.5rem;
@@ -29,6 +25,7 @@ span.icon {
     float: left;
 }
 .lz-dropdown-user {
+    padding-top: 13px;
     padding-left: 80px;
     height: 96px;
 }
