@@ -1,3 +1,9 @@
+.pun .user .user-info .post_field:nth-last-child(2)  {
+    float: none;
+}
+.pun .user .user-info .post_field:nth-last-child(2) .label {
+    display: block;
+}
 .user-info > br {
     display: none;
 }
