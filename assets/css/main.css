@@ -212,7 +212,7 @@ a.gensmall[style="color: #7A7A7A"]:before {
     float: left;
     width: 11.5vw;
 }
-.pun .user .user-info img {
+.pun .user .user-info .post_field:nth-last-child(2) img {
     background: none repeat scroll 0 0 #FFF;
     border: 1px solid #D8D8D8;
     box-shadow: 0 2px 2px rgba(0,0,0,0.1);
