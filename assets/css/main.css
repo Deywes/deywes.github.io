@@ -22,7 +22,10 @@ span.icon {
     box-sizing: border-box;
     float: left;
 }
- 
+.lz-dropdown-user {
+    padding-left: 80px;
+    height: 96px;
+}
 .lz-dropdown-user .lz-col-left a,
 .lz-dropdown-user .lz-col-right a {
     display: block;
