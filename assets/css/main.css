@@ -1,3 +1,26 @@
+.lz-avatar-wrap {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+ 
+.lz-dropdown-user {    
+    padding-left: 85px;
+    height: 95px;
+}
+ 
+.lz-dropdown-user .lz-col-left,
+.lz-dropdown-user .lz-col-right {
+    line-height: 1.5rem;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+ 
+.lz-dropdown-user .lz-col-left a,
+.lz-dropdown-user .lz-col-right a {
+    display: block;
+}
 span.fa-btnYellow {
   background-color: #ffdf00 !important;
   cursor: pointer;
