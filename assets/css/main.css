@@ -254,11 +254,11 @@ a.gensmall[style="color: #7A7A7A"]:before {
     background: none repeat scroll 0 0 #FFF;
     border: 1px solid #D8D8D8;
     box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-    height: 30px;
+    height: 40px;
     margin-bottom: 5px;
     padding: 1px;
     vertical-align: middle;
-    width: 30px;
+    width: 40px;
 }
 .sig-content:before {
     background: #2ea3f2;
