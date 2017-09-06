@@ -327,7 +327,7 @@ body div .pun .post .posthead {
     top: 0;
     border-radius: 0px!important;
     border: solid 0px !important;
-    border-bottom: solid 1px #2ea3f2!important;
+    border-bottom: 2px solid #2ea3f2!important;
     padding: 30px;
     padding-left: 22%;
 }
@@ -398,7 +398,7 @@ body div .pun .post .user .user-basic-info img[alt="avatar"] {
 }
 #main > div.main.paged > div.main-content.topic > div.post > div.user > div.user-ident > div > a > img {
   background-color: #f7f7f7!important;
-  border: 1px solid #2ea3f2!important;
+  border: 0px solid #2ea3f2!important;
   border-radius: 99em;
   width: 150px;
   height: 150px;
