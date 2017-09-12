@@ -1,3 +1,119 @@
+/*Novidades*/
+#right .mod_news {
+    border: 1px #d9d9d9 solid;
+    position: relative;
+}
+ 
+#right .mod_news .main-head {
+    background: #fff;
+    color: #333;
+    font-family: "Segoe UI", sans-serif !important;
+    text-shadow: none;
+    font-size: 24px !important;
+    padding: 15px 15px 0;
+    line-height: 48px;
+    box-shadow: none;
+    margin-bottom: 0;
+    text-indent: 0;
+}
+ 
+#right .mod_news .main-content {
+    border: none;
+}
+ 
+#right .mod_news .author {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    padding: 0 15px 5px;
+    font-size: 11px;
+    position: relative;
+}
+ 
+#right .mod_news .author::before {
+    font-family: "FontAwesome";
+    content: "\f017";
+    margin-right: 5px;
+}
+ 
+#right .mod_news .author::after {
+    position: absolute;
+    background-color: #d9d9d9;
+    height: 1px;
+    content: ' ';
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+}
+ 
+#right .mod_news .body {
+    padding: 15px;
+    font-size: 0;
+}
+ 
+#right .mod_news .body > span:not(:last-of-type) {
+    line-height: 18px !important;
+    display: block;
+    margin-bottom: 16px;
+}
+ 
+#right .mod_news .body > br {
+    display: none;
+}
+ 
+#right .mod_news .comments {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: none;
+    font-size: 12px;
+}
+ 
+#right .mod_news .comments > a,
+#right .mod_news .comments > a::before {
+    transition: 250ms color;
+}
+ 
+#right .mod_news .comments > a::before {
+    font-family: "FontAwesome";
+    content: "\f086";
+    font-size: 18px;
+    margin-right: 5px;
+    color: #333;
+}
+ 
+#right .mod_news .comments > a:hover::before,
+#right .mod_news .comments > a:focus::before,
+#right .mod_news .comments > a:active::before {
+    color: #2ea3f2;
+}
+ 
+#right .mod_news .body > .clear ~ a {
+    display: block;
+    position: absolute;
+    bottom: 7px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    background: #2ea3f2;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 3px;
+    transition: 250ms background-color;
+}
+ 
+#right .mod_news .body > .clear ~ a:hover,
+#right .mod_news .body > .clear ~ a:active,
+#right .mod_news .body > .clear ~ a:focus {
+    background: #44adf3;
+}
+ 
+#right .mod_news .body > .clear ~ a::before {
+    font-family: "FontAwesome";
+    content: "\f086";
+    font-size: 18px;
+}
+/*Novidades*/
 .pun .user .user-info .post_field:nth-last-child(2) br {
     display: none !important;
 }
