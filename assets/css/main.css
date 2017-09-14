@@ -48,7 +48,7 @@
  
 #right .mod_news .body {
     padding: 15px;
-    font-size: 0;
+    font-size: 12px;
 }
  
 #right .mod_news .body > span:not(:last-of-type) {
@@ -88,6 +88,7 @@
 }
  
 #right .mod_news .body > .clear ~ a {
+    font-size: 0px;
     display: block;
     position: absolute;
     bottom: 7px;
