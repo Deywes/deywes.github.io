@@ -1,3 +1,106 @@
+/*login*/
+.fa-popover-login {
+    transform: translate(-80%, 30px) !important;
+    margin: 0 !important;
+    right: 0 !important;
+    width: 400px;
+    padding: 0;
+}
+ 
+.fa-popover-login::before {
+    right: 35px;
+    left: auto;
+}
+ 
+.fa-popover-intro {
+    padding: 1rem 1rem 0.5rem ;
+    position: relative;
+}
+ 
+.fa-popover-intro::before {
+    content: ' ';
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 0;
+    height: 1px;
+    background-color: #0076b1;
+}
+ 
+.fa-popover-login > form {
+    margin: 0;
+    border: none;
+}
+ 
+.fa-popover-login > form::before {
+    content: 'Digite os dados da sua conta no formulário abaixo.';
+    font-size: 12px;
+    margin-bottom: 1rem;
+    display: block;
+}
+ 
+.fa-popover-login > form > div.input-group {
+    overflow: hidden;
+}
+ 
+.fa-popover-login > form > div.input-group > label {
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin: 0 0 1rem !important;
+    background-color: #efefef;
+    position: relative;
+}
+ 
+.fa-popover-login > form > div.input-group > label::after {
+    display: block;
+    text-indent: 0;
+    font-family: FontAwesome;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+ 
+.fa-popover-login > form > div.input-group > label[for="username"]::after {
+    content: "\f0c0";
+}
+ 
+.fa-popover-login > form > div.input-group > label[for="password"]::after {
+    content: "\f023";
+}
+ 
+.fa-popover-login > form > div.input-group > input {
+    background-color: #efefef;
+    float: right;
+    width: calc(100% - 32px);
+    margin: 0 0 1rem
+}
+ 
+.fa-popover-login > form > label[for="autologin"] {
+    margin-top: 0;
+}
+ 
+.fa-popover-login > form > footer {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 0 1rem;
+    margin: 1rem 0 0;
+    height: auto;
+}
+ 
+.fa-popover-login > form > footer > a {
+    right: 0;
+    bottom: 1rem;
+    margin: 0;
+    top: auto;
+    transform: none;
+}
 /*Like*/
         .fa_vote, .fa_voted, .fa_count {
           font-size:12px;
