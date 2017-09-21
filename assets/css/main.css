@@ -89,6 +89,7 @@ input#autologin {
 .fa-popover-login > form > label[for="autologin"] {
     font-size: 12px;
     margin-top: 0;
+    margin-left: 4px;
 }
  
 .fa-popover-login > form > footer {
