@@ -6,7 +6,10 @@
     width: 400px;
     padding: 0;
 }
- 
+input#autologin {
+    float: left;
+    margin-top: 3px;
+}
 .fa-popover-login::before {
     right: 35px;
     left: auto;
@@ -28,6 +31,7 @@
 }
  
 .fa-popover-login > form {
+    color: #fff;
     margin: 0;
     border: none;
 }
@@ -83,6 +87,7 @@
 }
  
 .fa-popover-login > form > label[for="autologin"] {
+    font-size: 12px;
     margin-top: 0;
 }
  
