@@ -1,4 +1,8 @@
 /*Like*/
+.fa_count {
+  font-weight: normal !important;
+}
+
 .fa_vote img,
 .fa_voted img {
   display: none;
@@ -28,7 +32,7 @@
 .fa_voted + .fa_count {
   background-color: #444;
   color: #fff !important;
-  padding: 2px 4px;
+  padding: 4px 7px;
   border-radius: 3px;
   margin-right: 10px;
 }
@@ -76,7 +80,7 @@
 .fa_voted + .fa_count {
   background-color: #444;
   color: #fff !important;
-  padding: 2px 4px;
+  padding: 4px 7px;
   border-radius: 3px;
   margin-right: 10px;
 }
@@ -193,9 +197,8 @@ input#autologin {
     top: auto;
     transform: none;
 }
-/*Like*/
         .fa_vote, .fa_voted, .fa_count {
-          font-size:12px;
+          font-size:15px;
           font-family:Verdana, Arial, Helvetica, Sans-serif;
           display:inline-block !important;
           width:auto !important;
