@@ -83,7 +83,7 @@ input#autologin {
     background-color: #efefef;
     float: right;
     width: calc(100% - 32px);
-    margin: 0 0 1rem
+    margin: -1px 0 1rem;
 }
  
 .fa-popover-login > form > label[for="autologin"] {
