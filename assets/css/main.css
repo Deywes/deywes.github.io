@@ -1,3 +1,32 @@
+/*Like*/
+.fa_vote img {
+  display: none;
+}
+ 
+.fa_vote::before {
+  font-family: FontAwesome;
+  color: #fff;
+  padding: 4px 4px;
+  border-radius: 4px;
+}
+ 
+.fa_vote.fa_plus::before {
+  content: "\f164";
+  background-color: #4a0;
+}
+ 
+.fa_vote.fa_minus::before {
+  content: "\f165";
+  background-color: #b42000;
+}
+ 
+.fa_vote + .fa_count {
+  background-color: #444;
+  color: #fff !important;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
 /*login*/
 .fa-popover-login {
     transform: translate(-80%, 30px) !important;
