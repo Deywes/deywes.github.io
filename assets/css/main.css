@@ -1,31 +1,40 @@
 /*Like*/
-.fa_vote img {
+.fa_vote img,
+.fa_voted img {
   display: none;
 }
  
-.fa_vote::before {
+.fa_vote::before,
+.fa_voted::before {
   font-family: FontAwesome;
   color: #fff;
   padding: 4px 4px;
   border-radius: 4px;
 }
  
-.fa_vote.fa_plus::before {
+.fa_vote.fa_plus::before,
+.fa_voted.fa_plus::before {
   content: "\f164";
   background-color: #4a0;
 }
  
-.fa_vote.fa_minus::before {
+.fa_vote.fa_minus::before,
+.fa_voted.fa_minus::before {
   content: "\f165";
   background-color: #b42000;
 }
  
-.fa_vote + .fa_count {
+.fa_vote + .fa_count,
+.fa_voted + .fa_count {
   background-color: #444;
   color: #fff !important;
   padding: 2px 4px;
   border-radius: 3px;
   margin-right: 10px;
+}
+ 
+.fa_votebar {
+  display: none;
 }
 /*login*/
 .fa-popover-login {
