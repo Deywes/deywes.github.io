@@ -19,20 +19,20 @@
 .fa_vote.fa_plus::before,
 .fa_voted.fa_plus::before {
   content: "\f164";
-  background-color: #4a0;
+  background-color: #439e05;
 }
  
 .fa_vote.fa_minus::before,
 .fa_voted.fa_minus::before {
   content: "\f165";
-  background-color: #b42000;
+  background-color: #c10000;
 }
  
 .fa_vote + .fa_count,
 .fa_voted + .fa_count {
   background-color: #444;
   color: #fff !important;
-  padding: 4px 7px;
+  padding: 3px 6px;
   border-radius: 3px;
   margin-right: 10px;
 }
@@ -198,7 +198,7 @@ input#autologin {
     transform: none;
 }
         .fa_vote, .fa_voted, .fa_count {
-          font-size:15px;
+          font-size: 13px;
           font-family:Verdana, Arial, Helvetica, Sans-serif;
           display:inline-block !important;
           width:auto !important;
