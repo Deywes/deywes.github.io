@@ -635,21 +635,6 @@ a.gensmall[style="color: #7A7A7A"]:before {
     vertical-align: middle;
     width: 40px;
 }
-.sig-content:before {
-    background: #2ea3f2;
-    border: 1px solid #2b8dd0;
-    border-bottom: 3px solid #2a76a9;
-    border-radius: 4px;
-    color: #fff;
-    content: "Assinatura Ultimate Life - RP";
-    display: inline-block;
-    font-size: 11px;
-    margin: auto;
-    padding: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 99%;
-}
 body div .pun .postmain {
   width: 78%;
   margin-left: 22%!important;
