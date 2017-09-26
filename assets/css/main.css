@@ -1,3 +1,58 @@
+/*ultimos*/
+.recentPost > .recentInline {
+    align-items: center;
+    position: relative;
+    min-height: 42px;
+    padding-left: 72px;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    line-height: 18px;
+    margin-top: -14px;
+}
+ 
+.recentPost > .recentInline > br {
+    display: none;
+}
+ 
+.recentPost > .recentInline > a {
+    text-indent: 0;
+}
+ 
+.recentPost > .recentInline > .lastpost-avatar {
+    position: absolute;
+    top: 14px;
+    left: 0;
+}
+ 
+.recentPost > .recentInline > a:last-of-type {
+    flex: 0 1 100%;
+    display: block;
+    position: relative;
+    margin-left: -15px;
+    cursor: default;
+}
+ 
+.recentPost > .recentInline > a:last-of-type > span {
+    cursor: pointer;
+}
+ 
+.recentPost > .recentInline > a:last-of-type::before,
+.recentPost > .recentInline > a:last-of-type::after {
+    font-family: FontAwesome;
+    color: #333 !important;
+}
+ 
+.recentPost > .recentInline > a:last-of-type::before {
+    content: '\f007';
+    margin-right: 5px;
+}
+ 
+.recentPost > .recentInline > a:last-of-type::after {
+    content: '\f017';
+    position: absolute;
+    top: 18px;
+    left: 0;
+}
 /*Like*/
 .fa_count {
   font-weight: normal !important;
