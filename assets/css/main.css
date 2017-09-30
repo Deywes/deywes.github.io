@@ -1,3 +1,13 @@
+/*Slides*/
+.owl-carousel .owl-item img {
+    left: 250px;
+    bottom: 0px;
+    color: #fff;
+    z-index: 8;
+    text-shadow: 0 1px 0 #000;
+    position: relative;
+    display: block;
+}
 /*ultimos*/
 .recentPost > .recentInline {
     align-items: center;
