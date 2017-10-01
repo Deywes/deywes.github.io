@@ -1,4 +1,8 @@
 /*Slides*/
+.owl-theme .owl-nav.disabled+.owl-dots {
+    max-width: 682px;
+    margin: 0px auto;
+}
 .owl-carousel .owl-item img {
     left: -11px;
     bottom: 0px;
