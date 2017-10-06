@@ -721,8 +721,8 @@ body div .pun .postmain {
   width: 78%;
   margin-left: 22%!important;
   margin-top: 95px!important;
-  border: solid 0px !important;
-  border-color: transparent!important;
+  border: solid 1px !important;
+  border-color: #ddd!important;
 }
  
 body div .pun .post {
