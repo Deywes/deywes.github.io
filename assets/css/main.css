@@ -1,7 +1,9 @@
+.post-mod-content-actions-original {
+  float: right;
+}
 .post-mod-content-actions {
   display: block;
 }
- 
 .post-mod-content-actions a {
   display: inline-block !important;
 }
