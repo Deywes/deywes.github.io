@@ -1,5 +1,9 @@
 .post-mod-content-actions-original {
-  float: right;
+    max-width: 236px;
+    margin: 5px auto;
+    height: 0px;
+    position: relative;
+    top: 0;
 }
 .post-mod-content-actions {
   display: block;
