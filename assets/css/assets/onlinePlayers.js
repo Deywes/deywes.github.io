@@ -7,7 +7,7 @@
  */
  
 /* IP DO SERVIDOR */
-const IP = "ts.ultimatelife.com.br";
+const IP = "149.56.41.55";
  
 /*  DELAY EM SEGUNDOS QUE VAI ATUALIZAR. */
 const UPDATE_DELAY_IN_SECONDS = 1;
