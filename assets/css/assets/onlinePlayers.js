@@ -7,10 +7,10 @@
  */
 
 /* IP DO SERVIDOR */
-const IP = "149.56.41.55";
+const IP = "ts.ultimatelife.com.br";
 
 /*  PORTA DO SERVIDOR */
-const PORTA = 7777;
+const PORTA = 9002;
 
 /*  DELAY EM SEGUNDOS QUE VAI ATUALIZAR. */
 const UPDATE_DELAY_IN_SECONDS = 1;
