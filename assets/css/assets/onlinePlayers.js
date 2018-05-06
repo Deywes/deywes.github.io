@@ -8,7 +8,9 @@
  
 /* IP DO SERVIDOR */
 const IP = "149.56.41.55";
- 
+
+ /*  PORTA DO SERVIDOR */
+const PORTA = 7777;
 /*  DELAY EM SEGUNDOS QUE VAI ATUALIZAR. */
 const UPDATE_DELAY_IN_SECONDS = 1;
  
@@ -19,17 +21,17 @@ const ELEMENT_ID = "online";
 window.onload = function ()
 {
     var element = document.getElementById(ELEMENT_ID);
- 
+
     element.innerHTML = "Carregando...";
- 
+
     setInterval(function ()
     {
         var httpRequest = new XMLHttpRequest();
-        httpRequest.open("GET", "https://mcapi.ca/query/" + IP + "/info", false);
+        httpRequest.open("GET", "https://mcapi.ca/query/" + IP + "/" + PORTA, false);
         httpRequest.send("");
- 
+
         var jsonResponse = JSON.parse(httpRequest.responseText);
- 
+
         if (jsonResponse.Players == null)
         {
             element.innerHTML = jsonResponse.players.online + "/" + jsonResponse.players.max;
@@ -38,6 +40,6 @@ window.onload = function ()
         {
             element.innerHTML = jsonResponse.Players + "/" + jsonResponse.MaxPlayers;
         }
- 
+
     }, UPDATE_DELAY_IN_SECONDS * 1000);
 };
